@@ -1,4 +1,4 @@
-package src.main.java;
+package src;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.*;
 public class Day1 {
 
     public static void main(String[] args) throws IOException {
-        List<String> lines = Files.readAllLines(new File("C:\\Users\\Lisa\\Documents\\GitHub\\adventofcode2023\\src\\main\\Day1Input.txt").toPath());
+        List<String> lines = Files.readAllLines(new File("Day1Input.txt").toPath());
         int totalPartOne = 0;
         for (String line : lines) {
             int first = 0;
